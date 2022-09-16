@@ -23,7 +23,7 @@
 
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git)
 
 ## BUILD PACKS
 
