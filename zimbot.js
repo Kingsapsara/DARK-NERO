@@ -1,6 +1,6 @@
 
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
+//▮𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 2022 ®️ALL RIGHTS RESERVED
 //▮
 //▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
@@ -8,9 +8,8 @@
 //▮
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
 //▮reinhardtuna@mail.uk
-//▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
-//▮
+//▮WHATSAPP US : 0774579505
+
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
 //┏━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -69,8 +68,8 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'ZIM BOT INC'
-wm = 'ZIM BOT INC'
+botname = '𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳'
+wm = '𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳'
 global.reactmoji = '🇿🇼'
 limitCount = setting.limit
 
@@ -3173,7 +3172,7 @@ if (isBan) throw mess.ban
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)
 		buf = await getBuffer(`https://xteam.xyz/magernulis?nama=${tes1}&kelas=${tes2}&text=${text}&APIKEY=${setting.riy}`)
-		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `ZIM BOT INC` }, { quoted: m }).catch((err) => m.reply('*Sorry Failed In Writing*')) 
+		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: ` 𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 ` }, { quoted: m }).catch((err) => m.reply('*Sorry Failed In Writing*')) 
 	    }
 	    break
 case 'magernulis2': {            
@@ -3185,7 +3184,7 @@ if (isBan) throw mess.ban
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)
 		buf = await getBuffer(`https://xteam.xyz/magernulis2?text=${text}&APIKEY=${setting.riy}`)
-		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `ZIM BOT INC` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
+		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
 	    }
 	    break
 case 'magernulis3': {            
@@ -3197,7 +3196,7 @@ if (isBan) throw mess.ban
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)
 		buf = await getBuffer(`https://xteam.xyz/magernulis3?text=${text}&APIKEY=${setting.riy}`)
-		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `ZIM BOT INC` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
+		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
 	    }
 	    break
 case 'magernulis4': {            
@@ -3209,7 +3208,7 @@ if (isBan) throw mess.ban
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)
 		buf = await getBuffer(`https://xteam.xyz/magernulis4?text=${text}&APIKEY=${setting.riy}`)
-		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `ZIM BOT INC` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
+		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
 	    }
 	    break
 case 'magernulis5': {            
@@ -3221,7 +3220,7 @@ if (isBan) throw mess.ban
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)
 		buf = await getBuffer(`https://xteam.xyz/magernulis5?text=${text}&APIKEY=${setting.riy}`)
-		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `ZIM BOT INC` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
+		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
 	    }
 	    break
 case 'magernulis6': {            
@@ -3233,7 +3232,7 @@ if (isBan) throw mess.ban
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)
 		buf = await getBuffer(`https://xteam.xyz/magernulis6?text=${text}&APIKEY=${setting.riy}`)
-		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `ZIM BOT INC` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
+		ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳` }, { quoted: m }).catch((err) => m.reply('Sorry Failed In Writing*')) 
 	    }
 	    break
 
@@ -3747,7 +3746,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 let caption = `
 *▊▊▊BEST MUSIC▊▊▊*
 
-*⬤▶━━━━━━━━━2:30*\n\n*⬤TITLE :* ${media.title}\n*⬤FILESIZE :* ${media.filesizeF}\n*⬤URL :* ${isUrl(text)}\n*⬤EXT :* MP3\n*⬤RESOLUTION :* ${args[1] || '128kbps'}\n\n*ZIM BOT INC*`
+*⬤▶━━━━━━━━━2:30*\n\n*⬤TITLE :* ${media.title}\n*⬤FILESIZE :* ${media.filesizeF}\n*⬤URL :* ${isUrl(text)}\n*⬤EXT :* MP3\n*⬤RESOLUTION :* ${args[1] || '128kbps'}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                 buf = await getBuffer(media.thumb)
                 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))                
                 ZimBotInc.sendMessage(m.chat, {document:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
@@ -3775,7 +3774,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 var capti = `
 *▊▊▊BEST VIDEO▊▊▊*
 
-*⬤▶━━━━━━━━━2:30*\n\n*⬤Title* : ${media.title}\n*⬤FILESIZE* : ${media.filesizeF}\n*⬤URL* : ${isUrl(text)}\n*⬤EXT* : MP3\n*⬤RESOLUTION* : ${args[1] || '360p'}\n\n*ZIM BOT INC*`
+*⬤▶━━━━━━━━━2:30*\n\n*⬤Title* : ${media.title}\n*⬤FILESIZE* : ${media.filesizeF}\n*⬤URL* : ${isUrl(text)}\n*⬤EXT* : MP3\n*⬤RESOLUTION* : ${args[1] || '360p'}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                 var buf = await getBuffer(media.thumb)
                 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${capti}` }, { quoted: m })
                 ZimBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `*Downloading From ${text}*` }, { quoted: m }).catch((err) => m.reply('*error while sending the video*'))
@@ -3794,7 +3793,7 @@ case 'ytshorts': case 'shorts': {
   cap = `
 *▊▊▊YOUTUBE SHORTS▊▊▊*
 
-*⬤▶━━━━━━━━━2:30*\n\n\n\n*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}\n*⬤DURATION* ${data.duration}\n*⬤ID:* ${data.medias[0].cached}\n*⬤LINK:* ${data.url}\n\n*ZIM BOT INC*`
+*⬤▶━━━━━━━━━2:30*\n\n\n\n*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}\n*⬤DURATION* ${data.duration}\n*⬤ID:* ${data.medias[0].cached}\n*⬤LINK:* ${data.url}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
   buf = await getBuffer(data.thumbnail)
   ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${cap}` }, { quoted: m })
   ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[0].url }, jpegThumbnail:buf, caption: `*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}` }, { quoted: m })  
@@ -4231,7 +4230,7 @@ if (isBan) throw mess.ban
             m.reply(`*1 limit used*`)
             anu = await fetchJson(`https://cililitan.herokuapp.com/api/kodepos?kota=${text}`)       
             for (let g of anu.result.data) {            
-            let helo = `*----「 KODEPOS 」----*\n\n*province* : ${g.province}\n*City* : ${g.city}\n*subdistrict* : ${g.subdistrict}\n*Urban* : ${g.urban}\n*postalcode* : ${g.postalcode}\n\n*ZIM BOT INC*`
+            let helo = `*----「 KODEPOS 」----*\n\n*province* : ${g.province}\n*City* : ${g.city}\n*subdistrict* : ${g.subdistrict}\n*Urban* : ${g.urban}\n*postalcode* : ${g.postalcode}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
             m.reply(`${helo}`)
             }
             }
@@ -4978,7 +4977,7 @@ if (isBan) throw mess.ban
                    var hadir = randomNomor(300)
                     var memek = randomNomor(1000)                      
                   let caption = `
-                  *▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*ZIM BOT INC*`
+                  *▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                   buf = await getBuffer(video.author.avatar)                
                   ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
                   ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -5001,7 +5000,7 @@ case 'tiktokk': case 'ttk': {
                    var hadie = randomNomor(200)     
                    var hadir = randomNomor(300)
                     var memek = randomNomor(1000)                      
-                  let caption = `*▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*ZIM BOT INC*`
+                  let caption = `*▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                   buf = await getBuffer(video.author.avatar)                
                   ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
                   ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -5126,7 +5125,7 @@ case 'ig': case 'igdl': case 'instagram': {
 	            var halo = 0		
 
 
-	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*ZIM BOT INC*` }, { quoted: m })	             	                      	            
+	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*` }, { quoted: m })	             	                      	            
 
 
 		        for(let i of result.medias) {		
@@ -5192,7 +5191,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
             anu = await fetchJson(`https://api.akuari.my.id/downloader/igdl?link=${text}`)
             var oi = 1
             for(let i of anu.medias){                
-                var txt = `*▊▊▊INSTA DL▊▊▊*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*ZIM BOT INC*`
+                var txt = `*▊▊▊INSTA DL▊▊▊*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                 var buf = await getBuffer(anu.user.profilePicUrl)        
                 ZimBotInc.sendMessage(m.chat, { image: { url: anu.user.profilePicUrl }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m }).catch((err) => m.reply('error'))
                 ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, caption: `${botname}`}, { quoted: m }).catch((err) => m.reply('error'))
@@ -5238,7 +5237,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
 
 		        var halo = 0		
 
-	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM STORY 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Media :* ${result.medias.length}\n*⬤ Bio :* ${result.user.biography}\n\n*ZIM BOT INC*` }, { quoted: m })	             	                      	            
+	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM STORY 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Media :* ${result.medias.length}\n*⬤ Bio :* ${result.user.biography}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*` }, { quoted: m })	             	                      	            
 
 		        for(let i of result.medias) {
 
@@ -5290,7 +5289,7 @@ case 'igs3': case 'igstory3': case 'instagramstory3': {
 	            bicil.instagramStoryv2(urlnya)
 	            .then(async(result) => {	  
 	            var halo = 1		
-	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTA DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Jumlah Media :* ${halo++}\n*⬤ Bio :* ${result.user.biography}\n\n*ZIM BOT INC*` }, { quoted: m })	             	                      	            
+	            ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTA DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Jumlah Media :* ${halo++}\n*⬤ Bio :* ${result.user.biography}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*` }, { quoted: m })	             	                      	            
 		        for(let i of result.results) {		
 		        if(i.url.includes('mp4')){		           			    				
 				let link = await getBuffer(i.sourceUrl)
@@ -5327,7 +5326,7 @@ case 'igs3': case 'igstory3': case 'instagramstory3': {
             kurangLimit(m.sender, 1)
             m.reply(`*1 limit used*`)
                 let anu = await fetchJson(`https://api.lolhuman.xyz/api/jooxplay?apikey=${setting.lolkey}&query=${text}`)
-                let msg = `*▊▊▊JOOX DL▊▊▊*\n\n*Title :* ${anu.result.info.song}\n*Album :* ${anu.result.info.album}\n*Singer :* ${anu.result.info.song}\n*Publish :* ${anu.result.info.date}\n*Link :* ${anu.result.audio[0].link}\n\n*ZIM BOT INC*`
+                let msg = `*▊▊▊JOOX DL▊▊▊*\n\n*Title :* ${anu.result.info.song}\n*Album :* ${anu.result.info.album}\n*Singer :* ${anu.result.info.song}\n*Publish :* ${anu.result.info.date}\n*Link :* ${anu.result.audio[0].link}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                 buf = await getBuffer(anu.result.image)
                 ZimBotInc.sendMessage(m.chat, { image: { url: anu.result.image }, jpegThumbnail:buf, caption: `${msg}` }, { quoted: m }).catch((err) => m.reply('*Sorry An error occurred*'))
                 ZimBotInc.sendMessage(m.chat, { audio: { url: anu.result.audio[0].link }, mimetype: 'audio/mpeg' }, { quoted: m }).catch((err) => m.reply('*Sorry An error occurred*'))
@@ -5347,7 +5346,7 @@ case 'igs3': case 'igstory3': case 'instagramstory3': {
                     txt += `*⬤Type :* ${data.medias[0].extension}\n`
                     txt += `*⬤Size :* ${data.medias[0].formattedSize}\n`
                     txt += `*⬤Url Source :* ${data.url}\n\n`
-                    txt += `*ZIM BOT INC*`
+                    txt += `*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                 buf = await getBuffer(data.thumbnail)   
                 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m }).catch((err) => m.reply('link error'))    
                 ZimBotInc.sendMessage(m.chat, { audio: { url: data.medias[0].url }, mimetype: 'audio/mpeg', fileName: data.title+'.m4a' }, { quoted: m })
@@ -5368,9 +5367,9 @@ const result4 = `*▊▊▊MEDIAFIRE DL▊▊▊*
 *Size* : ${baby1[0].size}
 *Mime* : ${baby1[0].mime}
 *Link* : ${baby1[0].link}\n
-_whoa wait zimbot processing..._
+_whoa wait 𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 processing..._
 
-*ZIM BOT INC*`
+*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
 m.reply(`${result4}`)
 ZimBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted : m }).catch ((err) => m.reply('*Failed to download File*'))
 }
@@ -5420,7 +5419,7 @@ case 'savefrom': {
 
        text: `${data.meta.title} *Here is the list of videos, click the button below to choose, here is the list of videos, click the button below to choose*`,
 
-       footer: `©ZIM BOT INC 2022`,
+       footer: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 2022`,
 
        title: "**▊▊▊SAVEFROM DL▊▊▊**",
 
@@ -5582,7 +5581,7 @@ case 'twitter': case 'td': case 'twitterdl': {
                     txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
                     txt += `*⬤DURATION :* ${data.medias.length}\n`
                     txt += `*⬤URL :* ${data.url}\n\n`
-                    txt += `*ZIM BOT INC*`
+                    txt += `*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                 buf = await getBuffer(data.thumbnail)    
                 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })
                 for (let i of data.medias) {
@@ -5649,11 +5648,11 @@ case 'fbdl': case 'fb': case 'facebook': case 'pesbuk': {
 
                     txt += `*⬤DESCRIPTION :* ${data.description}\n`
 
-                    txt += `*⬤ID :* ZIM BOT INC\n`
+                    txt += `*⬤ID :* 𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳\n`
 
                     txt += `*⬤URL :* ${text}\n\n`
 
-                    txt += `*ZIM BOT INC*`                
+                    txt += `*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`                
 
                 buf = await getBuffer(data.thumbnail)    
 
@@ -5705,7 +5704,7 @@ case 'fb6': {
                     txt += `*:⬤TYPE* ${data.medias[1].extension}\n`
                     txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
                     txt += `*⬤URL :* ${data.url}\n\n`
-                    txt += `*ZIM BOT INC*`
+                    txt += `*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
                 buf = await getBuffer(data.thumbnail)    
                 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })              
                 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[1].url }, jpegThumbnail:buf, caption: `*⬤ Quality :* ${data.medias[1].quality}`}, { quoted: m })                
@@ -5781,7 +5780,7 @@ case 'fb2': case 'facebook2': {
   noh.pin(`${text}`).then(async (data) => {    
   ZimBotInc.sendMessage(m.chat, { video: { url: data.data.url }, caption: `${data.data.file}` }, { quoted: m })  
                 }).catch((err) => {
-                    m.reply(`*${text}  ZIM BOT INC*`)
+                    m.reply(`*${text}  𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`)
                 })
             }
             break
@@ -5936,7 +5935,7 @@ case 'apk': case 'apkmod': case 'apkdl': {
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `© ZIM BOT INC`,
+       footer: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳`,
        title: "*▊▊▊APK DOWNLOAD▊▊▊*",
        buttonText: "CLICK HERE",
        sections
@@ -5958,7 +5957,7 @@ if (!isInventoryLimit){ addInventoriLimit(m.sender) }
            rex.ApkDown(`${text}`).then(async (anu) => {        
            if (anu[0].size.split('MB')[0] >= 150) return m.reply('*File Over Limit* '+util.format(anu))
            for (let i of anu) {    
-           linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*ZIM BOT INC*`         
+           linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`         
                 ZimBotInc.sendMessage(m.chat, { image: await getBuffer(i.thumb), jpegThumbnail: await getBuffer(i.thumb), caption: `${linkye}` }, { quoted: m })
                 ZimBotInc.sendMessage(m.chat, {document: await getBuffer(i.link), mimetype: `application/vnd.android.package-archive`, fileName: `${i.title}`}, {quoted:m})  
                 }  
@@ -6674,7 +6673,7 @@ if (q.includes('--help')) return m.reply(examkosong)
        let Levele = level.getLevelingLevel(m.sender, _level)
               let Xp = level.getLevelingXp(m.sender, _level)
               let Xplu = 10 * Math.pow(Levele, 2) + 50 * Levele + 100         
-     var profile = `*▊▊▊USER PROFILE ▊▊▊*\n\n⬤ *USERNAME:* ${pushname}\n⬤ *PREMIUM*: \n⬤ *ADMIN*: \n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\n*YOUR PROGRESS:*\n⬤ *YOUR LEVEL*: ${Levele}\n⬤ *YOUR XP*: (${Xp} / ${Xplu})\n*⬤ YOUR BLOOD* : ${getDarah(m.sender)}\n⬤ *YOUR IRON:* ${getBesi(m.sender)}\n⬤ *YOUR EMAS:* ${getEmas(m.sender)}\n⬤ *YOUR EMERALD* : ${getEmerald(m.sender)}\n⬤ *YOUR POTION* : ${getPotion(m.sender)}\n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\nHurry up:\n⬤ *YOUR FISH* : ${getIkan(m.sender)}\n⬤ *YOUR CHICKEN* : ${getAyam(m.sender)}\n⬤ *YOUR RABBIT* : ${getKelinci(m.sender)}\n⬤ *SHEEP* : ${getDomba(m.sender)}\n⬤ *YOUR COW* : ${getSapi(m.sender)}\n⬤ *YOUR ELEPHANTS* : ${getGajah(m.sender)}\n\n*ZIM BOT INC*`
+     var profile = `*▊▊▊USER PROFILE ▊▊▊*\n\n⬤ *USERNAME:* ${pushname}\n⬤ *PREMIUM*: \n⬤ *ADMIN*: \n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\n*YOUR PROGRESS:*\n⬤ *YOUR LEVEL*: ${Levele}\n⬤ *YOUR XP*: (${Xp} / ${Xplu})\n*⬤ YOUR BLOOD* : ${getDarah(m.sender)}\n⬤ *YOUR IRON:* ${getBesi(m.sender)}\n⬤ *YOUR EMAS:* ${getEmas(m.sender)}\n⬤ *YOUR EMERALD* : ${getEmerald(m.sender)}\n⬤ *YOUR POTION* : ${getPotion(m.sender)}\n\n=_=_=_=_=_=_=_=_=_=_=_=_=\n\nHurry up:\n⬤ *YOUR FISH* : ${getIkan(m.sender)}\n⬤ *YOUR CHICKEN* : ${getAyam(m.sender)}\n⬤ *YOUR RABBIT* : ${getKelinci(m.sender)}\n⬤ *SHEEP* : ${getDomba(m.sender)}\n⬤ *YOUR COW* : ${getSapi(m.sender)}\n⬤ *YOUR ELEPHANTS* : ${getGajah(m.sender)}\n\n*𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳*`
      ZimBotInc.sendMessage(m.chat, { image: { url: ppuser }, jpegThumbnail: await getBuffer(ppuser), caption: `${profile}` }, { quoted: m }).catch((err) => m.reply('link error'))    
   }
   break
@@ -7593,12 +7592,12 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
 }
 }, {
 quickReplyButton: {
@@ -7665,14 +7664,14 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 ┃━━━━━━━━━━━━━━━━━━┃
 ┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
 ╰━━━━━━━━━━━━━━━━━━╯`,
-       footer: `ZIM BOT INC`,
+       footer: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳`,
        title: `*LIST MENU*`,
        jpegThumbnail: buffer,
        buttonText: "CLICK HERE",
        sections
       }, { quoted : m })
       } else if (setbot.templateDoc) {
-      const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://www.youtube.com/c/DRIPSOFC` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v3` } },
+      const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git` } },
    {					
 					quickReplyButton: {
 						displayText: 'SPEED',
@@ -7697,7 +7696,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
 	document:fs.readFileSync('./lib/tes.xlsx'), 
 	mimetype: drips,
 	jpegThumbnail: buffer,
-	fileName: `ZIM BOT V4`,
+	fileName: `DARK NERO BOT`,
 	fileLength: 99999999999999,
 	templateButtons: buttonsDefault,footer: `${botname}`, quoted: m })
       }
