@@ -6636,29 +6636,27 @@ ZimBotInc.sendMessage(m.chat, {image: {url: anu},viewOnce : true},{quoted: m })
         m.reply(res)
         });
         break
-        case 'alive':
-            try {
-                await ZimBotInc.sendMessage(from, { react: { text: `🎗️`, key: m.key }})
-                const msg = `${global.alivemsg}`
-                 const templateButtons = [
-                 { urlButton: {displayText: 'Github 🐼' , url: 'https://github.com/vihangayt0/VihangaBot-MD-V3' }},
-                 { urlButton: {displayText: 'Whatsapp Group 🌍' , url: global.group1 }},
-                 { quickReplyButton: {displayText: 'MENU 📝', id: 'menu' }}  ,
-                 { quickReplyButton: {displayText: 'SPEED ⚙️', id: 'ping' }}  
-                                         ]
-                  const buttonMessage = {
-                  caption: msg,
-                  footer: global.botname,
-                  templateButtons: templateButtons,
-                  image: {url: global.img}
-                                         }                             
-                       await ZimBotInc.sendMessage(from, buttonMessage )
-                       
-            } catch(e) { 
-                         return 
-            } 
-           break
-        
+        break
+case 'alive': {
+    ZimBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
+    let buttons = [
+    {buttonId: ` menu `, buttonText: {displayText: '☛ MENU ☜'}, type: 1},
+    {buttonId: ` ping `, buttonText: {displayText: '☛ SPEED ☜'}, type: 1}
+    ]
+    let buttonMessage = {
+    image: { url: `${global.alivepic}` },
+    caption: `┊➪𝙃𝙄  ${pushname}
+
+    ┊➪⃝ 𝗜'𝗠 𝗗⃝𝗔𝗥𝗞 𝗡⃝𝗘𝗥𝗢 𝗠⃟𝗗
+     
+    ┆➪ 𝗠𝗬 ᴼᵂᴱᴺᴱᴿ⚕➫ ${global.ownername}`,
+    footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+    buttons: buttons,
+    headerType: 4,
+    }
+    ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+    }
+    break    
         
         // Upload status
         
@@ -6857,7 +6855,7 @@ let buttons = [
     {buttonId: `ping`, buttonText: {displayText: 'SPEED ⚙️'}, type: 1}
 ]
 let buttonMessage = {
-image: { url: `${global.img}` },
+image: { url: `https://i.ibb.co/BB1DX2C/Whats-App-Image-2022-09-12-at-9-02-23-AM.jpg` },
 caption: ` *✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 ╭━━━━━━━━━━━━━━━━━━╮
 ┃         ${global.botname}
@@ -7431,7 +7429,7 @@ caption: ` *✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 ┃⬤${prefix}ramaljodohbali
 ┗━━━━━━━━━━━━━⦿
 
-©️𝗭𝗜𝗠 𝗕𝗢𝗧 𝗜𝗡𝗖`,
+DARK NERO BOT`,
 footer: `ᴛɪᴍᴇ : ${moment.tz('Asia/Colombo').format('HH:mm:ss')}`,
 buttons: buttons,
 headerType: 4,
