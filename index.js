@@ -1,15 +1,7 @@
 
-// ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
-//▮
-//▮FORK AND DON'T FORGET TO GIVE A STAR
-//▮
-//▮THIS SOFTWARE IS UNDER UZ COPYRIGHT
-//▮
-//▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
-//▮reinhardtuna@mail.uk
-//▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
+
+//▮WHATSAPP US : +94 7745 79505
+//kaveesha
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -17,7 +9,7 @@
 //┃THIS SOFTWARE INCLUDES 
 //┃SOME ENCRYPTED FILES
 //┃
-//┃THANKS FOR CHOOSING ZIMBOT
+//┃THANKS FOR CHOOSING DARK NERO
 //┃THANKS TO DIKA ARDNT
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
@@ -84,17 +76,8 @@ async function startZimBotInc() {
     store.bind(ZimBotInc.ev)
     
     // anticall auto block
-    ZimBotInc.ws.on('CB:call', async (json) => {
-    const callerId = json.content[0].attrs['call-creator']
-    if (json.content[0].tag == 'offer') {
-    let pa7rick = await ZimBotInc.sendContact(callerId, global.owner)
-    ZimBotInc.sendMessage(callerId, { text: `*Automatic system block!*\n*Don't call bot!\nPlease contact the owner to UNBLOCK!*`}, { quoted : pa7rick })
-    await sleep(8000)
-    await ZimBotInc.updateBlockStatus(callerId, "block")
-    }
-    })
-
-    ZimBotInc.ev.on('messages.upsert', async chatUpdate => {
+    
+   
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
         try {
         mek = chatUpdate.messages[0]
@@ -104,7 +87,7 @@ async function startZimBotInc() {
         if (!ZimBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(ZimBotInc, mek, store)
-        require("./zimbot.js")(ZimBotInc, m, chatUpdate, store)
+        require("./DarkNeroMD.js")(ZimBotInc, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
