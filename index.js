@@ -70,7 +70,16 @@ async function startZimBotInc() {
 
     store.bind(ZimBotInc.ev)
     
-
+    // anticall auto block
+    ZimBotInc.ws.on('CB:call', async (json) => {
+    const callerId = json.content[0].attrs['call-creator']
+    if (json.content[0].tag == 'offer') {
+    let pa7rick = await ZimBotInc.sendContact(callerId, global.owner)
+    ZimBotInc.sendMessage(callerId, { text: `*Automatic system block!*\n*Don't call bot!\nPlease contact the owner to UNBLOCK!*`}, { quoted : pa7rick })
+    await sleep(8000)
+    await ZimBotInc.updateBlockStatus(callerId, "block")
+    }
+    })
 
     ZimBotInc.ev.on('messages.upsert', async chatUpdate => {
         //console.log(JSON.stringify(chatUpdate, undefined, 2))
