@@ -425,7 +425,7 @@ randek = jsonDrips[randIndex];
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
-		if (!('autobio' in setting)) setting.autobio = false
+		if (!('autobio' in setting)) setting.autobio = true
 		if (!('templateImage' in setting)) setting.templateImage = false
 		if (!('templateLocation' in setting)) setting.templateLocation = false
 		if (!('templateGif' in setting)) setting.templateGif = true
@@ -637,7 +637,7 @@ ZimBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4' , ptt: true
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await ZimBotInc.setStatus(`ZIM-BOT-INC| BOT ONLINE: ${runtime(uptime)}`)
+		await ZimBotInc.setStatus(`𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳| BOT ONLINE: ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -1789,9 +1789,9 @@ break
 //riact 
 
   
-if (m.sender == `94710350850@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
-if (m.sender == `94774579505@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
-if (m.sender == `94774579505@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+                        if (m.sender == `94710350850@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+                        if (m.sender == `94774579505@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+                        if (m.sender == `94774579505@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
 
 
 
@@ -3927,17 +3927,17 @@ if (isBan) throw mess.ban
                     reply(res)
                 }
                 break        
-        case 'gimage': {
+        case 'gimage': case 'img' : {
         if (isBan) throw mess.ban
         //if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)
-        if (!text) throw `Example : ${prefix + command} John Cena`
+        if (!text) throw `Example : ${prefix + command} Hacker`
         let gis = require('g-i-s')
         gis(text, async (error, result) => {
         n = result
         images = n[Math.floor(Math.random() * n.length)].url
         let log = await getBuffer(images)
         let buttons = [
-                    {buttonId: `gimage ${text}`, buttonText: {displayText: 'NEXT PIC'}, type: 1}
+                    {buttonId: `gimage ${text}`, buttonText: {displayText: 'NEXT '}, type: 1}
                 ]
                 let buttonMessage = {
                     image: { url: images },
@@ -7314,9 +7314,9 @@ case 'menu': {
     ]
     let buttonMessage = {
     image: { url: `https://i.ibb.co/BB1DX2C/Whats-App-Image-2022-09-12-at-9-02-23-AM.jpg` },
-    caption: ` *✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
+    caption: ` *🤴ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 
-
+    𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 👩‍🎤
 
     
 ┏━❰ *EXP & LIMIT* ❱
@@ -7774,6 +7774,8 @@ case 'menu': {
 ┃⬤${prefix}ytshorts
 ┃⬤${prefix}soundcloud
 ┃⬤${prefix}instagramreal
+┃⬤${prefix}wamod
+┃⬤${prefix}ehi
 ┗━━━━━━━━━━⦿
 
 
