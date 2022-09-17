@@ -6852,7 +6852,7 @@ ZimBotInc.sendMessage(m.chat, { image : { url : res.data.images.jpg.image_url}, 
 }
 break
 case 'menu': {
-    XeonBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
+    ZimBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
     let buttons = [
     {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1},
     {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1}
