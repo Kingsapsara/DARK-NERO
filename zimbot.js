@@ -6017,6 +6017,47 @@ case 'fbdl': case 'fb': case 'facebook': case 'pesbuk': {
 
 
 
+
+
+//ehi fill 
+
+break
+case 'ehi': {
+        await ZimBotInc.sendMessage(from, { react: { text: `🗂️`, key: m.key }})
+        await reply (`*Please Wait Im Uploading Ehi Files 🗂️*`)
+       
+              let ehi = 'https://github.com/vihangayt0/server-/raw/main/Ehi/facebook.ehi'
+              let ehi1 = 'https://github.com/vihangayt0/server-/raw/main/Ehi/imo.ehi'
+              let ehi2 = 'https://github.com/vihangayt0/server-/raw/main/Ehi/instergram.ehi'
+              let ehi3 = 'https://github.com/vihangayt0/server-/raw/main/Ehi/twitter.ehi'
+              let ehi4 = 'https://github.com/vihangayt0/server-/raw/main/Ehi/whatsapp.ehi'
+              let ehi5 = 'https://github.com/vihangayt0/server-/raw/main/Ehi/youtube.ehi'
+              let ehi6 = 'https://github.com/vihangayt0/server-/raw/main/Ehi/zero.ehi'
+                  await ZimBotInc.sendMessage(m.chat, { document: { url: ehi }, mimetype: 'application/octet-stream', fileName: `🗂️ FaceBook.ehi`}, { quoted: m })
+                  await ZimBotInc.sendMessage(m.chat, { document: { url: ehi1 }, mimetype: 'application/octet-stream', fileName: `🗂️ Imo.ehi `}, { quoted: m })
+                  await ZimBotInc.sendMessage(m.chat, { document: { url: ehi2 }, mimetype: 'application/octet-stream', fileName: `🗂️ Instergram.ehi`}, { quoted: m })
+                  await ZimBotInc.sendMessage(m.chat, { document: { url: ehi3 }, mimetype: 'application/octet-stream', fileName: `🗂️ Twitter.ehi`}, { quoted: m })
+                  await ZimBotInc.sendMessage(m.chat, { document: { url: ehi4 }, mimetype: 'application/octet-stream', fileName: `🗂️ Whatsapp.ehi`}, { quoted: m })
+                  await ZimBotInc.sendMessage(m.chat, { document: { url: ehi5 }, mimetype: 'application/octet-stream', fileName: `🗂️ Youtube.ehi`}, { quoted: m })
+                  await ZimBotInc.sendMessage(m.chat, { document: { url: ehi6 }, mimetype: 'application/octet-stream', fileName: `🗂️ Zero.ehi`}, { quoted: m })
+                  
+                  }
+               break 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //fb kaveesha
 
 
@@ -6032,7 +6073,7 @@ case 'tiktok': {
                                
              buf = await getBuffer(global.tiktokthub)
              const up = await  ZimBotInc.sendText(m.chat, `*Im Downloading Your ${m.pushName} Video ... 🔄*`)
-             await  ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark },caption: `${global.cap}`}, { quoted: m }) 
+             await  ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark },caption: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳`}, { quoted: m }) 
              await  ZimBotInc.sendMessage(m.chat,{delete : up.key })  
              await  ZimBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
              }).catch((err) => {
@@ -6065,7 +6106,7 @@ let link = await getBuffer(i.url)
 await  ZimBotInc.sendMessage(m.chat, { delete: download.key })	
 const uplode = await  ZimBotInc.sendText(m.chat, `*Please Wait Processing ${m.pushName} Video ... 🔄*`)
 
-ZimBotInc.sendMessage(m.chat, { video: link, jpegThumbnail:buf,caption: `${global.cap}` }, { quoted: m }) 
+ZimBotInc.sendMessage(m.chat, { video: link, jpegThumbnail:buf,caption: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳` }, { quoted: m }) 
 await  ZimBotInc.sendMessage(m.chat, { delete: uplode.key })    
           await  ZimBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})          
 
