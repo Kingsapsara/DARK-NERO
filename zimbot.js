@@ -1453,6 +1453,274 @@ if (q.includes('--help')) return m.reply(examkosong)
   addEmas(m.sended, emasnya)
   addEmerald(m.sender, emeraldnya)	     
   }   
+
+break
+
+//bot song 
+
+
+break
+case 'play': case 'yt': { 
+    ZimBotInc.sendMessage(from, { react: { text: `🔎`, key: m.key }})    
+        if (!text) return reply(`Example : ${prefix + command} lelena`)
+let yts = require("yt-search")
+let search = await yts(text)
+let anu = search.videos[0]
+let buttons = [
+{buttonId: `ytmp4 ${anu.url} 480p`, buttonText: {displayText: 'VIDEO'}, type: 1},
+{buttonId: `ytmp3 ${anu.url} 128kbps`, buttonText: {displayText: 'AUDIO'}, type: 1}
+]
+let buttonMessage = {
+image: { url: anu.thumbnail },
+caption: `*┏━━━❬KAVEESHA MD📌❭*
+ 
+*📥 YOUTUBE DOWNLODER* 
+
+*┃🎬Title :* ${anu.title} 
+
+*┃🎲Duration :* ${anu.timestamp} 
+
+*┃🍁Author :* ${anu.author.name} 
+
+*┃🍁Url :* ${anu.url} 
+
+*┃🔖Runtime :* ${runtime(process.uptime())}
+
+*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+
+┗━━━━━━━━━❊`,
+footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+buttons: buttons,
+headerType: 4,
+}
+ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+break
+case 'song': { 
+ZimBotInc.sendMessage(from, { react: { text: `🎧`, key: m.key }})    
+if (!text) return reply(`Example : ${prefix + command} lelena`)
+let yts = require("yt-search")
+let search = await yts(text)
+let anu = search.videos[0]
+let buttons = [
+{buttonId: `ytdoc ${anu.url}`, buttonText: {displayText: 'DOCUMENT'}, type: 1},
+{buttonId: `ytmp3 ${anu.url} 128kbps`, buttonText: {displayText: 'AUDIO'}, type: 1}
+]
+let buttonMessage = {
+image: { url: anu.thumbnail },
+caption: `*┏━━━❬KAVEESHA MD📌❭*
+ 
+*📥 SONG DOWNLODER* 
+
+*┃🎬TTitle :* ${anu.title} 
+
+*┃🎲Duration :* ${anu.timestamp} 
+
+*┃🍁Author :* ${anu.author.name} 
+
+*┃🍁Url :* ${anu.url} 
+
+*┃🔖Runtime :* ${runtime(process.uptime())}
+
+*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+
+┗━━━━━━━━━❊`,
+footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+buttons: buttons,
+headerType: 4,
+}
+ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+}
+break
+case 'ytdl': {
+if (!text) return reply(`Example : ${prefix + command} lelena`)
+let yts = require("yt-search")
+let search = await yts(text)
+let anu = search.videos[0]  
+let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+listMessage :{
+title: `Hi ${pushname}`,
+description: `*┏━━━❬KAVEESHA MD📌❭*
+ 
+📥 ADVANCE YOUTUBE DOWNLODER* 
+
+*┃🎬Title :* ${anu.title} 
+
+*┃🎲Duration :* ${anu.timestamp} 
+
+*┃🍁Author :* ${anu.author.name} 
+
+*┃🍁Url :* ${anu.url} 
+
+*┃🔖Description : ${anu.description}
+
+*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+
+┗━━━━━━━━━❊`,
+buttonText: "Menu",
+footerText: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+listType: "SINGLE_SELECT",
+sections: [{
+"title": "MP4",
+"rows": [
+    {
+        "title": "1080p",
+        "description": "1080p Video",
+        "rowId": `${prefix}ytmp4 ${anu.url} 1080p`
+    },
+    {
+       "title": "720p",
+       "description": "720p Video",
+       "rowId": `${prefix}ytmp4 ${anu.url} 720p`
+   },
+   {
+       "title": "480p",
+       "description": "480p Video",
+       "rowId": `${prefix}ytmp4 ${anu.url} 480p`
+   },
+   {
+       "title": "360p",
+       "description": "360p Video",
+       "rowId": `${prefix}ytmp4 ${anu.url} 360p`
+   },
+   {
+       "title": "240",
+       "description": "240p Video",
+       "rowId": `${prefix}ytmp4 ${anu.url} 240p`
+   },
+   {
+       "title": "144p",
+       "description": "144pp Video",
+       "rowId": `${prefix}ytmp4 ${anu.url} 144p`
+   }
+]
+},
+{
+"title": "MP3 Audio",
+"rows": [
+    {
+        "title": "Medium",
+        "description": "Medium Mp3 Audio",
+        "rowId": `${prefix}ytmp3 ${anu.url} 320kbps`
+    },
+    {
+        "title": "Low",
+        "description": "Low Mp3 Audio",
+        "rowId": `${prefix}ytmp3 ${anu.url} 128kbps`
+        }
+    
+]
+},
+{
+"title": "MP3 Document",
+"rows": [
+    {
+        "title": "Medium",
+        "description": "Medium Mp3 Document",
+        "rowId": `${prefix}ytdoc ${anu.url} 320kbps`
+    },
+    {
+       "title": "Low",
+       "description": "Low Mp3 Document",
+       "rowId": `${prefix}ytdoc ${anu.url} 128kbps`
+   }
+]
+}
+
+ ],
+listType: 1
+}
+}), {})
+ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
+}
+break
+	case 'ytdoc': {
+                if (!text) return reply(mess.linkm)
+                if (!isUrl(args[0]) && !args[0].includes('youtube.com')) return reply(`The link you provided is invalid`)
+                anu = await fetchJson(`https://api.akuari.my.id/downloader/youtube?link=${text}`)        
+                if (anu.filesize_video >= 999999) return reply('*File Over Limit* '+util.format(anu))
+                const docdown = await ZimBotInc.sendMessage(from , { text: '📥 Downloading Your Song...' }, { quoted: m } )                
+                     tummb = await getBuffer(anu.thumb)
+                audio = await getBuffer(anu.audio)  
+                await ZimBotInc.sendMessage(from, { delete: docdown.key })
+                const docup = await ZimBotInc.sendMessage(from , { text: '📤 Uploading Your Song...' }, { quoted: m } )      
+                const doc = await ZimBotInc.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `${anu.title}`}, { quoted : m }).catch((err) => reply(mess.error))
+                await ZimBotInc.sendMessage(from, { delete: docup.key })
+            }
+            break
+            case 'ytmp4': case 'video' : case 'yt' : {
+                                let { ytv } = require('./lib/y2mate')
+                                if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=RNa4thokVJ4 360p`)
+                                if (!isUrl(args[0]) && !args[0].includes('youtube.com')) return reply(`The link you provided is invalid!`)
+                                let quality = args[1] ? args[1] : '360p'
+                                let media = await ytv(text, quality)
+                                if (media.filesize >= 999999) return reply('*File Over Limit* '+util.format(media))
+                                var buf = await getBuffer(media.thumb)
+                                const viddown = await ZimBotInc.sendMessage(from , { text: '📥 Downloading Your Video...' }, { quoted: m } )
+                                await ZimBotInc.sendMessage(from, { delete: viddown.key })
+                                const vidup = await ZimBotInc.sendMessage(from , { text: '📤 Uploading Your Video...' }, { quoted: m } )
+                                const vid = await ZimBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `${global.ownername}` }, { quoted: m }).catch((err) => reply(mess.error))
+                                await ZimBotInc.sendMessage(from, { delete: vidup.key }) 
+                            }
+                            break
+                            case 'ytmp3': {	    
+                     let { yta } = require('./lib/y2mate')
+                     if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`)
+                     if (!isUrl(args[0]) && !args[0].includes('youtube.com')) return reply(`The link you provided is invalid`)
+                     let quality = args[1] ? args[1] : '128kbps'
+                     let media = await yta(text, quality)
+                     if (media.filesize >= 999999) return reply('*File Over Limit* '+util.format(media))                
+                     buf = await getBuffer(media.thumb) 
+                     const auddown = await ZimBotInc.sendMessage(from , { text: '📥 Downloading Your Song...' }, { quoted: m } )
+                     await ZimBotInc.sendMessage(from, { delete: auddown.key })
+                     const audup = await ZimBotInc.sendMessage(from , { text: '📤 Uploading Your Song...' }, { quoted: m } )
+                     const aud = await ZimBotInc.sendMessage(m.chat, {audio:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`}, { quoted: m }) .catch((err) => reply(mess.error))
+                     await ZimBotInc.sendMessage(from, { delete: audup.key })               
+                     }
+                 break
+	case 'video': { 
+  ZimBotInc.sendMessage(from, { react: { text: `🎥`, key: m.key }})    
+        if (!text) return reply(`Example : ${prefix + command} lelena`)
+ let yts = require("yt-search")
+ let search = await yts(text)
+ let anu = search.videos[0]
+ let buttons = [
+ {buttonId: `ytmp4 ${anu.url} 360p`, buttonText: {displayText: '360p'}, type: 1},
+ {buttonId: `ytmp4 ${anu.url} 480p`, buttonText: {displayText: '480p'}, type: 1},
+ {buttonId: `ytmp4 ${anu.url} 720p`, buttonText: {displayText: '720p'}, type: 1}
+ ]
+ let buttonMessage = {
+ image: { url: anu.thumbnail },
+ caption: `*┏━━━❬KAVEESHA MD📌❭*
+     
+   📥 VIDEO DOWNLODER* 
+ 
+*┃🎬Title :* ${anu.title} 
+ 
+*┃🎲Duration :* ${anu.timestamp} 
+ 
+*┃🍁Author :* ${anu.author.name} 
+ 
+*┃🍁Url :* ${anu.url} 
+
+*┃🔖Runtime :* ${runtime(process.uptime())}
+ 
+*┃BOT NAME :* ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+
+┗━━━━━━━━━❊`,
+ footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+ buttons: buttons,
+ headerType: 4,
+ }
+ ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+ }
+ break
+	
+
+
+
+
+
   break 
             case 'heal':{
 if (isBan) throw mess.ban            
