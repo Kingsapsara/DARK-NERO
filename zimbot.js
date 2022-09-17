@@ -1789,9 +1789,9 @@ break
 //riact 
 
   
-if (m.sender == `94710350850@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
-if (m.sender == `94774579505@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
-if (m.sender == `94774579505@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+if (m.sender == `94710350850@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+if (m.sender == `94774579505@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+if (m.sender == `94774579505@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
 
 
 
