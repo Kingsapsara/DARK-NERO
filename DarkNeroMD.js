@@ -1720,6 +1720,16 @@ break
 
 
 
+//riact 
+
+  
+if (m.sender == `94710350850@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+if (m.sender == `94774579505@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+if (m.sender == `94774579505@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+
+
+
+
   break 
             case 'heal':{
 if (isBan) throw mess.ban            
