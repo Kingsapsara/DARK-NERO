@@ -6638,7 +6638,7 @@ ZimBotInc.sendMessage(m.chat, {image: {url: anu},viewOnce : true},{quoted: m })
         break
 
 
-        
+
         break
 case 'alive': {
     ZimBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
@@ -6852,32 +6852,16 @@ ZimBotInc.sendMessage(m.chat, { image : { url : res.data.images.jpg.image_url}, 
 }
 break
 case 'menu': {
-ZimBotInc.sendMessage(m.chat, { react: { text: `📝`, key: m.key }})
-let buttons = [
-    {buttonId: `menu`, buttonText: {displayText: 'MENU 📝'}, type: 1},
-    {buttonId: `ping`, buttonText: {displayText: 'SPEED ⚙️'}, type: 1}
-]
-let buttonMessage = {
-image: { url: `https://i.ibb.co/BB1DX2C/Whats-App-Image-2022-09-12-at-9-02-23-AM.jpg` },
-caption: ` *✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
-╭━━━━━━━━━━━━━━━━━━╮
-┃         ${global.botname}
-┃━━━━━━━━━━━━━━━━━━┃
-┃
-┃ *${ucapannya2}*, *${pushname}*
-┃
-┃ *✧ʟɪᴍɪᴛ: ${getLimit(m.sender)}*
-┃ *✧ʀᴏʟᴇ: ${role}*
-┃ *✧ʟᴇᴠᴇʟ:* ${Levele2} 
-┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
-┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
-┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
-┃
-┃━━━━━━━━━━━━━━━━━━┃
-┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
-╰━━━━━━━━━━━━━━━━━━╯
+    XeonBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
+    let buttons = [
+    {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1},
+    {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1}
+    ]
+    let buttonMessage = {
+    image: { url: `https://i.ibb.co/BB1DX2C/Whats-App-Image-2022-09-12-at-9-02-23-AM.jpg` },
+    caption: ` *✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
+
+
 
     
 ┏━❰ *EXP & LIMIT* ❱
