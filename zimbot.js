@@ -1486,10 +1486,10 @@ caption: `*┏━━━❬KAVEESHA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
 
-*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+
 
 ┗━━━━━━━━━❊`,
-footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+footer: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳`,
 buttons: buttons,
 headerType: 4,
 }
@@ -1522,10 +1522,10 @@ caption: `*┏━━━❬KAVEESHA MD📌❭*
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
 
-*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+
 
 ┗━━━━━━━━━❊`,
-footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+footer: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 `,
 buttons: buttons,
 headerType: 4,
 }
@@ -1554,11 +1554,10 @@ description: `*┏━━━❬KAVEESHA MD📌❭*
 
 *┃🔖Description : ${anu.description}
 
-*┃BOT NAME : ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
 
 ┗━━━━━━━━━❊`,
 buttonText: "Menu",
-footerText: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+footerText: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳`,
 listType: "SINGLE_SELECT",
 sections: [{
 "title": "MP4",
@@ -1705,10 +1704,10 @@ break
 
 *┃🔖Runtime :* ${runtime(process.uptime())}
  
-*┃BOT NAME :* ✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫
+
 
 ┗━━━━━━━━━❊`,
- footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+ footer: `𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳`,
  buttons: buttons,
  headerType: 4,
  }
@@ -1747,7 +1746,7 @@ break
 case 'restart': {
              if (!isCreator) throw mess.owner              
              exec(`npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs`)
-             m.reply('*Restarting zimbot....*')
+             m.reply('*Restarting 𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳....*')
              }
 break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
@@ -2907,10 +2906,10 @@ let drips = [
 		            let btn = [{
           urlButton: {
                   displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
           }
                             }]
-                      let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
+                      let txt = `「 *𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 BROADCAST* 」\n\n${text}`
                       ZimBotInc.send5ButImg(i, txt, botname, global.bc, btn)
                     }
                 m.reply(` *Send Broadcast To* ${anu.length} *Group*`)
@@ -2926,7 +2925,7 @@ let drips = [
 		    let btn = [{
           urlButton: {
                   displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
           }
                             }]
                       let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -2959,7 +2958,7 @@ case 'bcimage': case 'bcvideo': case 'bcaudio': {
                     let butoon = [{
           urlButton: {
                   displayText: `GITHUB`,
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
           }
                             },
                             {
@@ -3909,7 +3908,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
           displayText: `GITHUB`, 
-                  url: `https://github.com/zim-bot/zimbot-v3`
+                  url: `https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git`
           }
                             }, {
           quickReplyButton: {
@@ -3974,7 +3973,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
           displayText: `GITHUB`, 
-                  url: `https://github.com/zim-bot/zimbot-v3`
+                  url: `https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git`
           }
                             }, {
           quickReplyButton: {
@@ -5200,12 +5199,12 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
 }
 }, {
 quickReplyButton: {
@@ -5308,7 +5307,7 @@ url: `${text}`
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
 }
 }, {
 quickReplyButton: {
@@ -5940,6 +5939,77 @@ case 'fbdl': case 'fb': case 'facebook': case 'pesbuk': {
 
             }
 
+
+
+//fb kaveesha
+
+
+break
+case 'tiktok': {
+  if (isBan) return  ZimBotInc.sendMessage(from, { react: { text: `❌`, key: m.key }})
+           
+          await  ZimBotInc.sendMessage(from, { react: { text: `⬆️`, key: m.key }})
+           if (!text) throw '*Enter a Link Query!*'          
+           let bocil = require('@bochilteam/scraper')   
+           if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) throw '*The link you provided is not valid*'                
+           bocil.tiktokdlv3(`${text}`).then(async (video) => {           
+                               
+             buf = await getBuffer(global.tiktokthub)
+             const up = await  ZimBotInc.sendText(m.chat, `*Im Downloading Your ${m.pushName} Video ... 🔄*`)
+             await  ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark },caption: `${global.cap}`}, { quoted: m }) 
+             await  ZimBotInc.sendMessage(m.chat,{delete : up.key })  
+             await  ZimBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }}) 
+             }).catch((err) => {
+                ZimBotInc.sendText(m.chat, '*CANT DOWNLOAD ❗*')})
+        }
+        break
+      case 'twiter' : case 'ig': case 'igvid' : case 'fb': case 'getvid': {
+  if (isBan) return  ZimBotInc.sendMessage(from, { react: { text: `❌`, key: m.key }})
+             
+          await  ZimBotInc.sendMessage(from, { react: { text: `⬆️`, key: m.key }})
+
+if (!text) throw '*Need link*'
+let anu = await fetchJson('https://raw.githubusercontent.com/vihangayt0/server-/main/settings.json')
+var buf = await getBuffer(anu.THUMB) 
+const download = await  ZimBotInc.sendText(m.chat, `*Im Downloading Your ${m.pushName} Video ... 🔄*`)
+
+let bicil = require('@bochilteam/scraper')
+
+let urlnya = text
+
+bicil.savefrom(urlnya)
+
+.then(async(result) => {	  	                                	                      	            
+
+for(let i of result.url) {		
+
+if(i.url.includes('mp4')){		           			    				
+
+let link = await getBuffer(i.url)
+await  ZimBotInc.sendMessage(m.chat, { delete: download.key })	
+const uplode = await  ZimBotInc.sendText(m.chat, `*Please Wait Processing ${m.pushName} Video ... 🔄*`)
+
+ZimBotInc.sendMessage(m.chat, { video: link, jpegThumbnail:buf,caption: `${global.cap}` }, { quoted: m }) 
+await  ZimBotInc.sendMessage(m.chat, { delete: uplode.key })    
+          await  ZimBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})          
+
+}
+
+}
+
+}).catch((err) => m.reply('*SORRY I CANT DOWNLOAD ❗*'))
+
+}		
+break
+
+
+
+
+
+
+
+
+
             break
 case 'fbmp3': case 'facebookmp3': case 'facebookaudio': {
                if (isBan) throw mess.ban
@@ -6067,7 +6137,7 @@ break
            case 'git': case 'gitclone':
            // //if (isLimit(m.sender, isPremium, isCreator, limitCount, limit)) return m.reply(mess.endLimit)                       
             let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
-            if (!args[0]) throw 'link github  EXAMPLE: https://github.com/zim-bot/zim-bot-md'
+            if (!args[0]) throw 'link github  EXAMPLE: https://github.com/Kaveeshasithum/DARK-NERO-BOT-MD-.git'
     if (!regex1.test(args[0])) throw 'link!'
     if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 1) return m.reply(mess.endLimit)
