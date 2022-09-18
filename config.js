@@ -30,6 +30,8 @@ global.APIKeys = {
 }
 
 // Other
+
+global.ownername = " KAVEESHA " //ur owner name
 global.owner = ['94774579505','']
 global.premium = ['94774579505','94774579505']
 global.botname = '𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳'
