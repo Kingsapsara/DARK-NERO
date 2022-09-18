@@ -1,4 +1,3 @@
-
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
 //▮𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 2022 ®️ALL RIGHTS RESERVED
 //▮
@@ -434,7 +433,7 @@ randek = jsonDrips[randIndex];
         if (!('templateDoc' in setting)) setting.templateDoc = false
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: false,
+		autobio: true,
 		templateImage: false,
 		templateLocation: false,
 		templateGif: true,
@@ -637,16 +636,14 @@ ZimBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4' , ptt: true
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await ZimBotInc.setStatus(`𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳| BOT ONLINE: ${runtime(uptime)}`)
+		await ZimBotInc.setStatus(`${ZimBotInc.user.name} | 👨‍💻 Runtime : ${runtime(process.uptime())}`)
 		setting.status = new Date() * 1
 	    }
 	}
+	
+	
 
-const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-            let po = ZimBotInc.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙᭄𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
-            return ZimBotInc.relayWAMessage(po, {waitForAck: true, quoted:mek})
-        }
-	    
+
         //----------ANTILINK ALL--------BY-DRIPS------\\
         if (db.data.chats[m.chat].antiinstagram) {
         if (budy.includes("https://www.instagram.com/")){
