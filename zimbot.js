@@ -6044,22 +6044,18 @@ case 'ehi': {
 
 
 
-//sound 
-
-case 'sound158':
-    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
-case 'sound159':
-    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
-case 'sound160':
-    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
-case 'sound161':
-    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
-if (isBan) return reply(mess.ban)
-	if (isBanChat) return reply(mess.banChat)
-xeony_buffer = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
-await ZimBotInc.sendMessage(m.chat, { audio: xeony_buffer, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+//logo maker
 break
-
+case 'neon':{
+	if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+     let link = `https://textpro.me/neon-light-text-effect-online-882.html`
+     let anui = await textpro(link, q)
+     reply(`Wait a moment while making the logo about 1 minute`) 
+     console.log(anui)
+     ZimBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+}
+   break
 
 
 
