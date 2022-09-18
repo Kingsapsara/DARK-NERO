@@ -6044,7 +6044,21 @@ case 'ehi': {
 
 
 
+//sound 
 
+case 'sound158':
+    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
+case 'sound159':
+    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
+case 'sound160':
+    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
+case 'sound161':
+    ZimBotInc.sendMessage(from, { react: { text: `🎙️`, key: m.key }})
+if (isBan) return reply(mess.ban)
+	if (isBanChat) return reply(mess.banChat)
+xeony_buffer = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
+await ZimBotInc.sendMessage(m.chat, { audio: xeony_buffer, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+break
 
 
 
@@ -7099,7 +7113,7 @@ case 'alive': {
     {buttonId: ` ping `, buttonText: {displayText: '☛ SPEED ☜'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/BB1DX2C/Whats-App-Image-2022-09-12-at-9-02-23-AM.jpg` },
+    image: { url: `https://i.ibb.co/8N6fR4X/Whats-App-Image-2022-09-17-at-21-22-46.jpg` },
     caption: `┊➪𝙃𝙄  ${pushname}
 
     ┊➪⃝ 𝗜'𝗠 𝗗⃝𝗔𝗥𝗞 𝗡⃝𝗘𝗥𝗢 𝗠⃟𝗗
@@ -7310,7 +7324,7 @@ case 'menu': {
     {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/BB1DX2C/Whats-App-Image-2022-09-12-at-9-02-23-AM.jpg` },
+    image: { url: `https://i.ibb.co/8N6fR4X/Whats-App-Image-2022-09-17-at-21-22-46.jpg` },
     caption: ` *🤴ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 
     𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 👩‍🎤
