@@ -7160,12 +7160,12 @@ case 'alive': {
     {buttonId: ` ping `, buttonText: {displayText: '☛    SPEED    ☜'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/8N6fR4X/Whats-App-Image-2022-09-17-at-21-22-46.jpg` },
+    image: { url: `${global.alivepic}` },
     caption: `┊➪𝙃𝙄  ${pushname}
 
-    ┊➪⃝ 𝗜'𝗠 𝗗⃝𝗔𝗥𝗞 𝗡⃝𝗘𝗥𝗢 𝗠⃟𝗗
+┊➪⃝ 𝗜'𝗠 𝗗⃝𝗔𝗥𝗞 𝗡⃝𝗘𝗥𝗢 𝗠⃟𝗗
      
-    ┆➪ 𝗠𝗬 ᴼᵂᴱᴺᴱᴿ⚕➫ ${global.ownername}`,
+┆➪ 𝗠𝗬 ᴼᵂᴱᴺᴱᴿ⚕➫ ${global.ownername}`,
     footer: `⚜️𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋⚜️`,
     buttons: buttons,
     headerType: 4,
@@ -7371,7 +7371,7 @@ case 'menu': {
     {buttonId: `ping`, buttonText: {displayText: 'SPEED'}, type: 1}
     ]
     let buttonMessage = {
-    image: { url: `https://i.ibb.co/8N6fR4X/Whats-App-Image-2022-09-17-at-21-22-46.jpg` },
+    image: { url: `${global.alivepic}` },
     caption: ` *🤴ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 
     𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳 👩‍🎤
