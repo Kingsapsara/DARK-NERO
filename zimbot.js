@@ -6044,18 +6044,23 @@ case 'ehi': {
 
 
 
-//logo maker
-break
-case 'neon':{
-	if (isBan) return reply(mess.ban)	 			
+//tagall
+case 'tagall': { 
+    ZimBotInc.sendMessage(from, { react: { text: `🔥`, key: m.key }})    
+        if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-     let link = `https://textpro.me/neon-light-text-effect-online-882.html`
-     let anui = await textpro(link, q)
-     reply(`Wait a moment while making the logo about 1 minute`) 
-     console.log(anui)
-     ZimBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
-}
-   break
+        if (!m.isGroup) return replay(`${mess.group}`)
+        if (!isBotAdmins) return replay(`${mess.botAdmin}`)
+        if (!isAdmins) return replay(`${mess.admin}`)
+let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
+
+➲ *Message : ${q ? q : 'no message'}*\n\n`
+        for (let mem of participants) {
+        teks += `${themeemoji} @${mem.id.split('@')[0]}\n`
+        }
+        ZimBotInc.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
+        }
+        break
 
 
 
@@ -7101,12 +7106,58 @@ ZimBotInc.sendMessage(m.chat, {image: {url: anu},viewOnce : true},{quoted: m })
 
 
 
+// updete 
+
+case 'update': {
+    ZimBotInc.sendMessage(from, { react: { text: `🦈`, key: m.key }}) 
+    let buttons = [
+    {buttonId: `☛ menu ☜`, buttonText: {displayText: 'MENU'}, type: 1},
+    {buttonId: `☛ alive ☜`, buttonText: {displayText: '⚜️ 𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋 ⚜️'}, type: 1}
+    ]
+    let buttonMessage = {
+    image: { url: `${global.alivepic}` },
+    caption: `𝗬𝗢𝗨𝗥 𝘃𝗲𝗿𝘀𝗶𝗼𝗻 4.0.1
+
+    𝘤𝘩𝘦𝘤𝘬 𝘺𝘰𝘶𝘳 𝘶𝘱𝘥𝘢𝘵𝘦𝘴
+    
+    https://sites.google.com/view/dark-nero-home/home
+    
+    𝘴𝘰𝘱𝘱𝘰𝘳𝘵 𝘨𝘳𝘰𝘶𝘱 
+    
+    
+    https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX`,
+    footer: `⚜️𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋⚜️`,
+    buttons: buttons,
+    headerType: 4,
+    }
+    ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
+    }
+    break    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         break
 case 'alive': {
-    ZimBotInc.sendMessage(from, { react: { text: `💖`, key: m.key }}) 
+    ZimBotInc.sendMessage(from, { react: { text: `🐨`, key: m.key }}) 
     let buttons = [
-    {buttonId: ` menu `, buttonText: {displayText: '☛ MENU ☜'}, type: 1},
-    {buttonId: ` ping `, buttonText: {displayText: '☛ SPEED ☜'}, type: 1}
+    {buttonId: ` update `, buttonText: {displayText: '  ⚜️𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋⚜️ '}, type: 1},    
+    {buttonId: ` menu `, buttonText: {displayText: '☛    MENU     ☜'}, type: 1},
+    {buttonId: ` ping `, buttonText: {displayText: '☛    SPEED    ☜'}, type: 1}
     ]
     let buttonMessage = {
     image: { url: `https://i.ibb.co/8N6fR4X/Whats-App-Image-2022-09-17-at-21-22-46.jpg` },
@@ -7114,8 +7165,8 @@ case 'alive': {
 
     ┊➪⃝ 𝗜'𝗠 𝗗⃝𝗔𝗥𝗞 𝗡⃝𝗘𝗥𝗢 𝗠⃟𝗗
      
-    ┆➪ 𝗠𝗬 ᴼᵂᴱᴺᴱᴿ⚕➫ kaveesha`,
-    footer: `✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫`,
+    ┆➪ 𝗠𝗬 ᴼᵂᴱᴺᴱᴿ⚕➫ ${global.ownername}`,
+    footer: `⚜️𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋⚜️`,
     buttons: buttons,
     headerType: 4,
     }
