@@ -1523,7 +1523,7 @@ break
 
 
 break
-case 'play': case 'yt': { 
+case 'play': case 'yt': case 'video': { 
     ZimBotInc.sendMessage(from, { react: { text: `🔎`, key: m.key }})    
         if (!text) return reply(`Example : ${prefix + command} lelena`)
 let yts = require("yt-search")
@@ -6291,7 +6291,7 @@ break
         		if (anu.type == 'video') {
     		    let buttons = [
                         {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: 'SONG'}, type: 1},
-                        {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: 'VIDEO'}, type: 1}
+                        {buttonId: `ytmp4 ${anu.media[0]} 480p`, buttonText: {displayText: 'VIDEO'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
