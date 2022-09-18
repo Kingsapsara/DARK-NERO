@@ -31,7 +31,7 @@ global.APIKeys = {
 
 // Other
 
-global.alivepic = "https://i.ibb.co/BB1DX2C/Whats-App-Image-2022-09-12-at-9-02-23-AM.jpg" //you logo key 
+global.alivepic = "https://i.ibb.c-17-at-21-22-46.jpgo/8N6fR4X/Whats-App-Image-2022-09" //you logo key 
 
 
 global.ownername = " KAVEESHA " //ur owner name
