@@ -7111,8 +7111,8 @@ ZimBotInc.sendMessage(m.chat, {image: {url: anu},viewOnce : true},{quoted: m })
 case 'update': {
     ZimBotInc.sendMessage(from, { react: { text: `🦈`, key: m.key }}) 
     let buttons = [
-    {buttonId: `☛ menu ☜`, buttonText: {displayText: 'MENU'}, type: 1},
-    {buttonId: `☛ alive ☜`, buttonText: {displayText: '⚜️ 𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋 ⚜️'}, type: 1}
+    {buttonId: `menu `, buttonText: {displayText: 'MENU'}, type: 1},
+    {buttonId: `alive `, buttonText: {displayText: '⚜️ 𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋 ⚜️'}, type: 1}
     ]
     let buttonMessage = {
     image: { url: `${global.alivepic}` },
