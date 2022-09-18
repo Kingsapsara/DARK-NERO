@@ -5,6 +5,14 @@
 # Dark nero BOT INC
  WhatsApp with so Many features using multi device  [BAILEYS](https://github.com/adiwajshing/baileys)
  
+ 
+ <h1 align="center">✫ ✫ ✫𝙳𝙰𝚁𝙺 𝙽𝙴𝚁𝙾✫ ✫ ✫<br></h1>
+<p align="center">
+<img src="https://i.ibb.co/8N6fR4X/Whats-App-Image-2022-09-17-at-21-22-46.jpg"
+ 
+ 
+ 
+ 
 
 ## [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A) [![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
 
@@ -61,12 +69,18 @@ echo scan the qr code and enjoy bot
 
 ## JOIN MY WHATSAPP GROUP
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/EFsb8RCXV4jLEFk4eAcA1A)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX)
 
 ## MY PERSONAL CHAT
 
-# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/27634090203)
+# [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/94774579505)
 
 
-# > THANKS FOR CHOOSING ZIM BOT WE APPRECIATE YOU FOR YOUR SUPPORT
+# > THANKS FOR CHOOSING DARK NERO BOT WE APPRECIATE YOU FOR YOUR SUPPORT
  
+# > KUMUTHU 
+# > VIHANGA
+# > THINURA
+# > LAKHAN
+# > pramu
+# > Amra
