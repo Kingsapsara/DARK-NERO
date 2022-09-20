@@ -847,9 +847,9 @@ if (!isAntilinkyt) {
 	    
 	                   //reactdev
                
-               if (m.sender == `94715166712@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
-               if (m.sender == `94766866297@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
-               if (m.sender == `94774579505@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+               if (m.sender == `94715166712@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+               if (m.sender == `94766866297@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+               if (m.sender == `94774579505@s.whatsapp.net`) ZimBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
 	    
 	if (('family100'+m.chat in _family100) && isCmd) {
             kuis = true
