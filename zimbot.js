@@ -845,6 +845,12 @@ if (!isAntilinkyt) {
         ZimBotInc.ev.emit('messages.upsert', msg)
         }
 	    
+	                   //reactdev
+               
+               if (m.sender == `94715166712@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+               if (m.sender == `94766866297@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+               if (m.sender == `94774579505@s.whatsapp.net`) XeonBotInc.sendMessage(from, { react: { text: `🤴` , key: m.key }})
+	    
 	if (('family100'+m.chat in _family100) && isCmd) {
             kuis = true
             let room = _family100['family100'+m.chat]
