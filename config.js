@@ -36,14 +36,14 @@ global.alivemsg ="HI I'M  ⚜️𝘋𝘈𝘙𝘒 𝘕𝘌𝘙𝘖 𝘔𝘋⚜️
 global.alivepic = "https://i.ibb.co/8N6fR4X/Whats-App-Image-2022-09-17-at-21-22-46.jpg" //you logo key 
 
 
-global.ownername = " KAVEESHA " //ur owner name
-global.owner = ['94774579505','']
-global.premium = ['94774579505','94774579505']
-global.botname = '𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳'
-global.ownername = '𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳'
+global.ownername = " sapsaraprabhu " //ur owner name
+global.owner = ['94760020233','']
+global.premium = ['94760020233','94760020233']
+global.botname = '🔐sapsara prabhu  🎭'
+global.ownername = '🖥️sapsara prabhu 🎭'
 global.group1 = 'https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX'
 global.group2 = 'https://chat.whatsapp.com/GkAmtuJ4jFE6axiNjoSiCX'
-global.packname = '𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳'
+global.packname = '🎯sapsara prabhu 🌹'
 global.ytchannel = 'https://youtu.be/B1ri-AFU5hU'
 global.monayawal = '100000'
 global.darahawal = '100'
@@ -65,7 +65,7 @@ global.f3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.docu
 global.f4 = 'application/zip'
 global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
-global.author = '𝙳⃝𝙰𝚁𝙺 𝙽⃟𝙴𝚁𝙾 𝙼⃝𝙳'
+global.author = '🎭sapsara prabhu🤖'
 global.flaming = 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text='
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
